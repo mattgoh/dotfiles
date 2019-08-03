@@ -1,16 +1,22 @@
-# i3 config files
+## i3 config
+Config location may vary by install. See package instructions
 
-File location may vary by install. See package instructions
-
-## config
-Place in ~/.config/i3
+```console
+mv config ~/.config/i3/config
+```
 
 ## .i3blocks.conf
-Place in home
-
 Requires i3blocks: https://github.com/vivien/i3blocks
 
 (i3blocks scripts placed in /usr/share/i3blocks)
 
+
+```console
+mv i3blocks.conf ~/.i3blocks.conf
+```
+
 ## batterybar.sh
-Place in ~/.i3blocks
+```console
+mv batterybar.sh ~/.i3blocks/batterybar.sh
+
+````
