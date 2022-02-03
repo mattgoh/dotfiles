@@ -2,7 +2,17 @@
 syntax enable
 
 " set color scheme
-colorscheme badwolf
+"colorscheme badwolf
+colorscheme space-vim-dark
+
+let g:python_highlight_all = 1
+let g:space_vim_dark_background = 235
+"color space-vim-dark
+
+set nocompatible
+
+"
+set background=dark
 
 " show line numbers
 set number
@@ -27,3 +37,22 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+
+" Cursorline
+
+highlight CursorLine cterm=underline
+"""""""""""""""
+" Key bindings
+"""""""""""""""
+
+" $/^ doesn't do anything
+nnoremap ^ <nop>
+
+"
+nnoremap ; :
+
+" Plug
+call plug#begin()
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-python/python-syntax'
+call plug#end()
