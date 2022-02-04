@@ -1,15 +1,35 @@
 " enable syntax highlighting
 syntax enable
 
-" set color scheme
-"colorscheme badwolf
-colorscheme space-vim-dark
+" Plug
+call plug#begin(expand('~/.vim/plugged'))
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-python/python-syntax'
+Plug 'arcticicestudio/nord-vim'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'joshdick/onedark.vim'
+Plug 'NLKNguyen/papercolor-theme'
+call plug#end()
 
-let g:python_highlight_all = 1
-let g:space_vim_dark_background = 235
+" set color scheme
+colorscheme PaperColor
+"colorscheme badwolf
+"colorscheme onedark
+"colorscheme space-vim-dark
+"colorscheme nord
+"colorscheme onehalfdark
+
+"let g:airline_theme='onehalfdark'
+" lightline
+"let g:lightline = { 'colorscheme': 'onehalfdark' }
+"let g:space_vim_dark_background = 235
+
 "color space-vim-dark
 
-set nocompatible
+"set nocompatible
+
+"
+"set t_Co=256
 
 "
 set background=dark
@@ -50,9 +70,3 @@ nnoremap ^ <nop>
 
 "
 nnoremap ; :
-
-" Plug
-call plug#begin()
-Plug 'sheerun/vim-polyglot'
-Plug 'vim-python/python-syntax'
-call plug#end()
