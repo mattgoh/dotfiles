@@ -101,9 +101,9 @@ bindsym $mod+a focus parent
 bindsym $mod+l exec --no-startup-id i3lock -p default -i /home/matt/Dropbox/images/michael-benz-waves-unsplash.jpg
 
 # name workspace
-set $ws0 "0.media"
-set $ws1 "1.main"
-set $ws2 "2.term"
+set $ws0 "  0  "
+set $ws1 "  1  "
+set $ws2 "  2  "
 set $ws3 "  3  "
 set $ws4 "  4  "
 set $ws5 "  5  "
@@ -184,15 +184,15 @@ bindsym $mod+r mode "resize"
 #####################################
 ## colors
 #####################################
-set $accent                     #adff2f
+set $accent                     #909090
 
-set $text                       #F8F8F2
-set $text_focused               #F8F8F2
-set $bg_system_focused          #38393b
+set $text                       #000000
+set $text_focused               #bfbfbf
+set $bg_system_focused          #162025
 set $bg_system_unfocused  
 set $bg_bar_focused             #1B1B1B
 set $bg_bar_unfocused
-set $border_system_focused     
+set $border_system_focused
 set $border_system_unfocused
 
 
@@ -225,7 +225,7 @@ default_border pixel
 
 
 # class                 border  bground text    indicator child_border
-client.focused          #000000 #0a63a3 #F8F8F2 #000000   #000000
+client.focused          #000000 #095f78 #e7f5f9 #000000   #000000
 client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
 client.unfocused        #282A36 #242424 #BFBFBF #282A36   #282A36
 client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
