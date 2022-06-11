@@ -1,6 +1,8 @@
 ## i3 config
 Config location may vary by install. See package instructions
 
+Typically:
+
 ```console
 mv config ~/.config/i3/config
 ```
