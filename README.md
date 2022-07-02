@@ -37,3 +37,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 - `powertop`
 - `tmux-power` - [Link](https://github.com/wfxr/tmux-power)
 - `powerlevel10k` - [Link](https://github.com/romkatv/powerlevel10k)
+
+## iterm2 profile (MacOS)
+
+`iterm2-profile.json`
